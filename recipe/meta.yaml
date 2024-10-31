@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/rustimport-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/rustimport-{{ version }}.tar.gz
   sha256: 6349461ab131ccf925b07cf58c9c535525b17e1bbb7582718020c1ec7e043e40
 
 build:
