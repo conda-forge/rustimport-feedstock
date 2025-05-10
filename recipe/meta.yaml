@@ -1,5 +1,5 @@
 {% set name = "rustimport" %}
-{% set version = "1.7.0" %}
+{% set version = "1.7.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/rustimport-{{ version }}.tar.gz
-  sha256: 41356c1c4a06d6d87e11a6f3bc43bf803e65a9ff48788f27f4f0e3a325d20b6e
+  sha256: 0917231d9ef6615868389a4dd8ebdac3155eef769a2d61b39b419ff70ce195f1
 
 build:
   noarch: python
